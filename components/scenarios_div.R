@@ -1,6 +1,6 @@
 library(echarts4r)
 library(bslib)
-library(qs)
+
 
 
 render_model_registry <- function(df) {
