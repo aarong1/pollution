@@ -99,7 +99,7 @@ render_model_registry <- function(df) {
       )
     )
   )
-};htmltools::browsable(bslib::page_fluid(render_model_registry(models)))
+};#htmltools::browsable(bslib::page_fluid(render_model_registry(models)))
 
 
 
