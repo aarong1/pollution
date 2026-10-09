@@ -1,0 +1,21 @@
+category,outcome,pollutant,measure,estimate,ci_lower,ci_upper
+Respiratory outcomes,Asthma (children ≤6 years),PM2.5,,,,
+Respiratory outcomes,Asthma (children ≤6 years),NO2,OR,1.08,1.01,1.12
+Respiratory outcomes,Asthma (children >6 years),PM2.5,OR,1.48,1.22,1.97
+Respiratory outcomes,Asthma (children >6 years),NO2,OR,1.03,1.0,1.06
+Respiratory outcomes,Asthma (adults),PM2.5,,,,
+Respiratory outcomes,Asthma (adults),NO2,OR,1.04,1.0,1.08
+Respiratory outcomes,COPD/chronic bronchitis (adults),PM2.5,OR,1.49,1.03,2.14
+Respiratory outcomes,COPD/chronic bronchitis (adults),NO2,,,,
+Cardiovascular outcomes,CHD (adults),PM2.5,HR,1.41,1.0,2.01
+Cardiovascular outcomes,CHD (adults),NO2,,,,
+Cardiovascular outcomes,Stroke (adults),PM2.5,HR,1.13,1.04,1.23
+Cardiovascular outcomes,Stroke (adults),NO2,,,,
+Cardiovascular outcomes,Diabetes (adults),PM2.5,RR,1.1,1.02,1.18
+Cardiovascular outcomes,Diabetes (adults),NO2,RR,1.05,1.02,1.07
+Cancer and other outcomes,Lung cancer (adults),PM2.5,RR,1.09,1.04,1.14
+Cancer and other outcomes,Lung cancer (adults),NO2,RR,1.02,1.0,1.03
+Cancer and other outcomes,Dementia (adults),PM2.5,,,,
+Cancer and other outcomes,Dementia (adults),NO2,HR,1.01,1.01,1.03
+Cancer and other outcomes,Low birth weight†,PM2.5,OR,1.39,1.12,1.77
+Cancer and other outcomes,Low birth weight†,NO2,OR,1.04,1.0,1.07
