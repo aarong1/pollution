@@ -12,6 +12,7 @@ library(readxl)
 library(tidyverse)
 library(reactable)
 library(fst)
+library(leaflet)
 
 # load(".RData")
 
@@ -669,15 +670,15 @@ option && myChart.setOption(option);
 </script>")
                                                    )
                                           ),
-                                          # tags$div(id = "item-9-1",
-                                          #          h4('PM2.5 Exposure distribution',class = 'm-5 p-3 border-bottom border-top border-success'),
-                                          #          tags$span(class ='lead',""),
-                                          # div(class = 'mx-5 px-5',
-                                          #     
-                                          #   pollution_map_app
-                                          #   
-                                          # )
-                                          # ),
+                                          tags$div(id = "item-9-1",
+                                                   h4('PM2.5 Exposure distribution',class = 'm-5 p-3 border-bottom border-top border-success'),
+                                                   tags$span(class ='lead',""),
+                                          div(class = 'mx-5 px-5',
+
+                                            pollution_map_app
+
+                                          )
+                                          ),
                                           tags$div(id = "item-10",
                                                   
                                           div(id = "Links",class='min-vh-25 p-5 m-5 w-75',
