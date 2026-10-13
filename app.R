@@ -37,7 +37,7 @@ source('./components/disabled_risk_to_intervene_on.R')
 source('./components/hatched_sub_title.R')
 source('./components/scenarios_div.R')
 
-
+pollution_map_app <- readRDS('./pollution_map_app.RData')
 
 source('modules/startup_overlay/startup_overlay_div.R')
 # source('modules/specificInterventionModule_3.R')
@@ -672,6 +672,13 @@ option && myChart.setOption(option);
 }); // DOMContentLoaded
 </script>")
                                                    )
+                                          ),
+                                          tags$div(id = "item-9-1",
+                                                   h4('PM2.5 Exposure distribution',class = 'm-5 p-3 border-bottom border-top border-success'),
+                                                   tags$span(class ='lead',""),
+                                          div(class = 'mx-5 px-5',
+                                            pollution_map_app
+                                          )
                                           ),
                                           tags$div(id = "item-10",
                                                   
