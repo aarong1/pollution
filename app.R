@@ -9,14 +9,13 @@ library(shiny)
 library(echarts4r)
 library(bslib)
 library(readxl)
-# library(leaflet)
+
 library(reactable)
 library(fst)
 library(tidyverse)
-# library(sf)
+
 library(leaflet)
-library(rsconnect)
-library(sparkline)
+
 # load(".RData")
 
 # rm(past_populations,
