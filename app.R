@@ -14,7 +14,7 @@ library(reactable)
 library(fst)
 library(tidyverse)
 # library(sf)
-
+library(leaflet)
 library(rsconnect)
 library(sparkline)
 # load(".RData")
@@ -677,7 +677,9 @@ option && myChart.setOption(option);
                                                    h4('PM2.5 Exposure distribution',class = 'm-5 p-3 border-bottom border-top border-success'),
                                                    tags$span(class ='lead',""),
                                           div(class = 'mx-5 px-5',
+                                              
                                             pollution_map_app
+                                            
                                           )
                                           ),
                                           tags$div(id = "item-10",
