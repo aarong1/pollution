@@ -9,7 +9,7 @@ library(shiny)
 library(echarts4r)
 library(bslib)
 library(readxl)
-
+library(tidyverse)
 library(reactable)
 library(fst)
 
